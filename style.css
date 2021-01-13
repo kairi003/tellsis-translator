@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "tellsis";
+  src: url("./tellsis.woff2") format("woff2"),
+       url("./tellsis.woff") format("woff");
+}
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  max-width: 50rem;
+  margin: auto;
+}
+
+textarea {
+  resize: vertical;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 10em;
+}
+
+.tellsis {
+  font-family: 'tellsis', 'Noto Serif JP', serif;
+}
