@@ -4,10 +4,16 @@
        url("//kairi003.github.io/tellsis-translator/fonts/tellsis.woff") format("woff");
 }
 
+html {
+  background-color: rgb(240,240,240);
+}
+
 body {
   font-family: 'Noto Serif JP', serif;
   max-width: 50rem;
   margin: auto;
+  background-color: rgb(250,250,250);
+  padding: 1rem;
 }
 
 textarea {
