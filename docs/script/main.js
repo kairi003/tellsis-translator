@@ -1,7 +1,7 @@
 (async () => {
   const proms = ['data/translate.json', 'data/proper-noun.json'].map(url => fetch(url).then(r => r.json()));
   proms.push(new Promise(resolve => window.addEventListener('DOMContentLoaded', resolve)));
-  const [translate, properNounData] = await Promise.all(arr);
+  const [translate, properNounData] = await Promise.all(proms);
   const tamil = document.getElementById('tamil');
   const properNoun = document.getElementById('properNoun');
   properNoun.value = properNounData.join('\n');
