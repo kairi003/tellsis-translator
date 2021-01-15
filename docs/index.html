@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="アニメ『ヴァイオレット・エヴァーガーデン』の劇中に登場するテルシス語の翻訳をサポートするツール">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@kairi_005">
+  <meta property="og:url" content="https://kairi003.github.io/tellsis-translator/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="テルシス語翻訳(雑)">
+  <meta property="og:description" content="ヴァイオレット・エヴァーガーデンのテルシス語の翻訳をサポートするツール">
+  <meta property="og:image" content="https://kairi003.github.io/img/icon.png">
+  <title>テルシス語翻訳(雑)</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="icon" href="https://kairi003.github.io/img/favicon.ico" type="image/ico">
+  <script src="script/main.js"></script>
+</head>
+
+<body>
+    <header>
+      <h1>テルシス語翻訳(雑)</h1>
+      <p>アニメ『ヴァイオレット・エヴァーガーデン』の劇中に登場するテルシス語の翻訳をサポートするツールです。PR歓迎。</p>
+    </header>
+    <main>
+      <section class="usage">
+        <h2>つかいかた</h2>
+        <ol>
+          <li><a href="img/letter_sample.png" target="_new">画像</a>を参考にしてTellsisかRomanに原文を入力する</li>
+          <li>文字置換されTamilにタミル語が出力される</li>
+          <li>Google翻訳にブチ込む（一気に入れるとうまく行かないので注意）</li>
+          <li>ProperNounに記述された固有名詞は文字置換の対象外になります</li>
+        </ol>
+      </section>
+      <section class="tool">
+        <section>
+          <h2>Tellsis</h2>
+          <textarea id="tellsis" class="tellsis translate input"></textarea>
+        </section>
+        <section>
+          <h2>Roman</h2>
+          <textarea id="roman" class="translate input"></textarea>
+        </section>
+        <section>
+          <h2>Tamil</h2>
+          <a href="https://translate.google.com/?sl=ta&tl=en" target="_new">Google翻訳</a>
+          <textarea id="tamil" class="translate" readonly></textarea>
+        </section>
+        <section>
+          <h2>ProperNoun</h2>
+          <textarea id="properNoun" class="proper-noun"></textarea>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>Author: <a href="https://twitter.com/kairi_005">@kairi_005</a></li>
+        <li>Repository: <a href="https://github.com/kairi003/tellsis-translator/">kairi003/tellsis-translator</a></li>
+        <li>Fonts: <a href="https://booth.pm/ja/items/1979406">よづきの妄想スキマ様 『テルシス語フォント』</a></li>
+        <li>Reference: <a href="https://twitter.com/i/events/982896790130208768">小奥様 『ヴァイオレット・エヴァーガーデン世界の言語はタミル語モデルでした
+            #VioletEvergarden #解読』</a></li>
+      </ul>
+    </footer>
+</body>
+
+</html>

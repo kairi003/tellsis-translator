@@ -1,7 +1,7 @@
 @font-face {
   font-family: "tellsis";
-  src: url("./tellsis.woff2") format("woff2"),
-       url("./tellsis.woff") format("woff");
+  src: url("//kairi003.github.io/tellsis-translator/fonts/tellsis.woff2") format("woff2"),
+       url("//kairi003.github.io/tellsis-translator/fonts/tellsis.woff") format("woff");
 }
 
 body {
@@ -13,9 +13,17 @@ body {
 textarea {
   resize: vertical;
   font-family: 'Noto Serif JP', serif;
-  font-size: 1.5rem;
   width: 100%;
   height: 10em;
+}
+
+textarea.translate {
+  font-size: 1.5rem;
+  height: 10em;
+}
+
+textarea.proper-noun {
+  font-size: 1rem;
 }
 
 .tellsis {
